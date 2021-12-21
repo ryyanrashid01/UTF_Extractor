@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+hr.dotted {
+    margin-top: 3rem;
+    border: none;
+    border-top: 5px dotted #00ADB5;
+}
+
+.active {
+    color: #00ADB5 !important;
+}
+
+.btn {
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 3px 3px 8px black;
+    transition: 0.4s;
+}
+
+.btn-primary {
+    background: #00ADB5;
+    color: white;
+}
+
+.btn:hover {
+    background-color: gray;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #0367a5;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(#e3fdfd, #71c9ce81), url("/Resources/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    text-align: center;
+}
+
+#navbar {
+    width: 100%;
+    overflow: auto;
+    line-height: 40px;
+}
+
+#navbar .menu {
+    float: right;
+    margin-right: 10rem;
+}
+
+#navbar .logo a {
+    font-size: 30px;
+    vertical-align: middle;
+    float: left;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+#navbar .menu a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: #71C9CE;
+    text-decoration: none;
+    font-size: 17px;
+    vertical-align: middle;
+    margin-right: 5rem;
+}
+
+.file-submission {
+    width: 50%;
+    margin: auto;
+}
+
+.file-submission .upload {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.file-submission .url {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.upload label, .url label, .instructions label {
+    font-size: 30px;
+    color: #4C4C6D;
+}
+
+.file-submission .upload input, .url input {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.pdfFile, .urlPDF {
+    font-size: 20px;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 8px black;
+    outline: none;
+    border-radius: 50px;
+    width: 100%;
+}
+
+::-webkit-file-upload-button {
+    color: #4C4C6D;
+    background: #CEE5D0;
+    padding: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+::-webkit-file-upload-button:hover {
+    background: white !important;
+}
+
+.instructions {
+    width: 50%;
+    margin: auto;
+}
+
+.instructions .points {
+    text-align: left;
+}
+
+input[type=text] {
+    padding: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
