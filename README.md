@@ -19,5 +19,5 @@ Wait for the Apache server to start. Once it is started, you can go to http://lo
 
 ### Screenshots
 <p align="center">
-    <img href="https://github.com/ryyanrashid01/UTF_Extractor/blob/main/Screenshots/sc1.jpeg?raw=true" alt="Screenshot">
+    <img src="https://github.com/ryyanrashid01/UTF_Extractor/blob/main/Screenshots/sc1.jpeg?raw=true" alt="Screenshot">
 </p>
