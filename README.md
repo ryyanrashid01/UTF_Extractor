@@ -9,9 +9,13 @@ To run the web application locally on your machine, make sure your machine has:
 
  Once sure, follow these steps:
  1. Clone this repository
- ```git clone git@github.com:ryyanrashid01/UTF_Extractor.git```
+ ```
+ git clone git@github.com:ryyanrashid01/UTF_Extractor.git
+ ```
  2. cd into the directory and paste the following command in the terminal:
- ```php -S 127.0.0.1:8000```
+ ```
+ php -S 127.0.0.1:8000
+ ```
  and the website will start running on port 8000 (https://localhost:8000)
 
 
